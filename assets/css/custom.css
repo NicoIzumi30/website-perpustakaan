@@ -1,0 +1,80 @@
+@font-face /*perintah untuk memanggil font eksternal*/
+  {
+    font-family: 'rainyhearts'; /*memberikan nama bebas untuk font*/
+    src: url('rainyhearts.ttf');/*memanggil file font eksternalnya di folder nexa*/
+  }
+  body{
+      padding-top: 60px;
+  }
+  .fora{
+      font-family: rainyhearts;
+  }
+.cover{
+    border: 1px solid black;
+    background-color: red;
+}
+.putihBesar {
+	color: #22222e;
+	border: 3px solid skyblue;
+	border-radius: 10px;
+    min-height: 400px;
+}
+.detail-buku img{
+    float: left;
+}
+.images-sampul {
+    border-radius: 10px;
+    border: 2px solid #cf760b;
+    max-width: 260px;
+    max-height: 290px;
+    margin-left: 50px;
+}
+.detail-info {
+	margin-left: 20px;
+}
+.text-abu{
+	color: #9e9e9e;
+}
+.seline{
+    display: inline; 
+}
+.mali20 {
+	margin-left: 200px;
+}
+.mali22 {
+	margin-left: 230px;
+}
+.mali23 {
+	margin-left: 230px;
+}
+.mali26 {
+	margin-left: 260px;
+}
+.mali28 {
+	margin-left: 320px;
+}
+.jumbotron{
+    font-size: 20px;
+    padding: 120px;
+    background-color: #17a2b8;
+    text-align: center;
+    color: white;
+ }
+.jumbotron h1 {
+   font-size: 50px;
+}
+.kotak-header{
+    background-color: skyblue;
+    width: 400px;
+    margin-top: 100px;
+    padding: 13px 10px 7px 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: rainyhearts;
+}
+.kotak-body{
+    background-color: rgb(87, 137, 157);
+    width: 400px; 
+    height: 250px;
+    padding: 13px 10px 7px 15px;
+}
