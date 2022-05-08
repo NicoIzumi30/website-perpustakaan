@@ -1,5 +1,5 @@
 <?php 
-$title = "Daftar Penjualan";
+$title = "Daftar Peminjaman";
 require "includes/header.php"
 
 

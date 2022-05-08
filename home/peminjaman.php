@@ -10,7 +10,7 @@ $lama = $_POST['lama'];
 $jangka = (int)$lama;
 $now = date("d-M-Y");// pendefinisian tanggal awal
 $next = date('d-M-Y', strtotime('+'.$jangka.'days', strtotime($now))); 
-mysqli_query($conn, "INSERT INTO pinjam (id, no_buku, tgl_pinjam, tgl_kembali, status_peminjaman) value ('$id','$nobuk','$now', '$next','Di Pinjam')");
+mysqli_query($conn, "INSERT INTO pinjam (id, no_buku,lama_peminjaman, tgl_pinjam, tgl_kembali, status_peminjaman) value ('$id','$nobuk','$lama','$now', '$next','Di Pinjam')");
 mysqli_query($conn, "UPDATE buku SET status = 'Di Pinjam' WHERE no_buku = '$nobuk'");
 
 
